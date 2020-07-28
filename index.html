@@ -46,7 +46,7 @@
                         <div class="card-body" style="width: 205px;height: 350px;padding: 0px;margin: 10px;"><img class="d-lg-flex m-auto align-items-lg-center" style="width: 205px;height: 115.31px;margin-left: 0px;padding-left: 0px;" src="assets/img/portfolio/ML_FP.png">
                             <h4 class="card-title" style="margin-top: 5px;">Machine Learning</h4>
                             <h6 class="text-muted card-subtitle mb-2" style="margin-top: 0px;">Juypter, Python, Pandas, XGBoost, ARIMA</h6>
-                            <p class="card-text" style="width: 180px;margin-top: 15px;margin-bottom: 20px;"></p><a class="card-link" href="https://github.com/ppages01/FP_machinelearning">GitHub</a></div>
+                            <p class="card-text" style="width: 180px;margin-top: 15px;margin-bottom: 20px;"></p><a class="card-link" href="#machinelearning-1" data-toggle="modal" data-target="#machinelearning-1">Info</a><a class="card-link" href="https://github.com/ppages01/FP_machinelearning">GitHub</a></div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
@@ -57,7 +57,7 @@
                         <div class="card-body" style="width: 205px;height: 350px;padding: 0px;margin: 10px;"><img class="d-lg-flex m-auto align-items-lg-center" style="width: 205px;height: 115.31px;margin-left: 0px;padding-left: 0px;" src="assets/img/portfolio/dashboard-pj2.gif">
                             <h4 class="card-title" style="margin-top: 5px;">Dashboard</h4>
                             <h6 class="text-muted card-subtitle mb-2" style="margin-top: 0px;">JS, SQL, D3, Leaflet, ChartJS</h6>
-                            <p class="card-text" style="width: 180px;margin-top: 15px;margin-bottom: 20px;"></p><a class="card-link" href="https://github.com/ppages01/project2">GitHub</a><a class="card-link" href="https://da-project2.herokuapp.com">Heroku</a></div>
+                            <p class="card-text" style="width: 180px;margin-top: 15px;margin-bottom: 20px;"></p><a class="card-link" href="#dashboard-1" data-toggle="modal" data-target="#dashboard-1">Info</a><a class="card-link" href="https://github.com/ppages01/project2">GitHub</a><a class="card-link" href="https://da-project2.herokuapp.com">Heroku</a></div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
@@ -113,7 +113,7 @@
                         <div class="card-body" style="width: 205px;height: 350px;padding: 0px;margin: 10px;"><img class="d-lg-flex m-auto align-items-lg-center" style="width: 205px;height: 115.31px;margin-left: 0px;padding-left: 0px;" src="assets/img/portfolio/bigdata.png">
                             <h4 class="card-title" style="margin-top: 5px;">Big Data</h4>
                             <h6 class="text-muted card-subtitle mb-2" style="margin-top: 0px;">Spark Data ETL &amp; Analysis, Machine Learning Naive Bayes</h6>
-                            <div class="btn-group" role="group"></div><a class="card-link" href="https://github.com/ppages01/big-data-challenge">GitHub</a></div>
+                            <div class="btn-group" role="group"></div><a class="card-link" href="#bigdata" data-toggle="modal" data-target="#bigdata">Info</a><a class="card-link" href="https://github.com/ppages01/big-data-challenge">GitHub</a></div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
@@ -130,13 +130,53 @@
             </div>
         </div>
     </section>
+    <div class="modal fade" role="dialog" tabindex="-1" id="machinelearning-1">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Info</h4><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
+                <div class="modal-body">
+                    <p><br>Machine Learning - This took data from P2P loans, after preprocessing and engineering some columns on the loans, machine learning models were used in an attempt to predict whether a loan was good or bad, again based on metrics
+                        within the data.&nbsp; Evaluation of the model using a confusion matrix was performed.<br><br></p>
+                </div>
+                <div class="modal-footer"><button class="btn btn-light" type="button" data-dismiss="modal">Close</button></div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" role="dialog" tabindex="-1" id="dashboard-1">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Info</h4><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
+                <div class="modal-body">
+                    <p><br>Dashboard - Created an interactive dashboard using Bootstrap and Javascript. D3Json was used to read the results of multiple SQL Queries performed using Python Flask web framework. Multiple endpoints were created, depending on
+                        which year of data was requested, relevant data was&nbsp; displayed, summarized and visualized using Javascript.<br><br><br></p>
+                </div>
+                <div class="modal-footer"><button class="btn btn-light" type="button" data-dismiss="modal">Close</button></div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" role="dialog" tabindex="-1" id="bigdata">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Info</h4><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
+                <div class="modal-body">
+                    <p><br>ETL Big Data - A 2 phase project with an extra 3rd Machine Learning component.. This involved reading and loading an Amazon review’s data file, cleaning up the columns and transforming it so it can be loaded into a Postgress database.
+                        Phase 2 involved analyzing and summarizing&nbsp; the data while using visualization tools. Phase 3 implemented a Naive Bayes learning machine model, analyzing the review text and forming a model prediction on whether a review was
+                        "Good" or" Bad". <br><br><br><br></p>
+                </div>
+                <div class="modal-footer"><button class="btn btn-light" type="button" data-dismiss="modal">Close</button></div>
+            </div>
+        </div>
+    </div>
     <section id="about" class="bg-primary text-white mb-0">
         <div class="container">
             <h2 class="text-uppercase text-center text-white">About</h2>
             <hr class="star-light mb-5">
             <div class="row">
                 <div class="col-lg-4 ml-auto">
-                    <p class="lead">Data Analyst with past experience in the Information Technology or Analytics, I have a broader perspective on the entire business IT process. <br></p>
+                    <p class="lead">Data Analyst with a background experience in Information Technology.<br></p>
                     <p class="lead">I enjoy leaning new data analysis tools, methods and database technologies</p>
                 </div>
                 <div class="col-lg-4 mr-auto">
@@ -299,6 +339,7 @@
     <script src="assets/js/bs-init.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
     <script src="assets/js/freelancer.js"></script>
+    <script src="assets/js/port.js"></script>
 </body>
 
 </html>
