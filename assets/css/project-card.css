@@ -111,3 +111,11 @@ button:focus {
   margin-left: 15px;
 }
 
+.img-fluid.d-lg-flex.m-auto.align-items-lg-center {
+}
+
+.img-fluid.d-lg-flex.m-auto.align-items-lg-center.matplot {
+  padding-top: 50px;
+  padding-bottom: 84px;
+}
+
